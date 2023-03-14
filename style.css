@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+#main {
+
+}
+
+#header {
+
+}
+
+#header .header-menu {
+    position: relative;
+}
+
+#header .header-menu ul {
+    display: flex;
+    list-style-type: none;
+    background-color: #000;
+}
+
+#header .header-menu li {
+   font-size: 13px;
+    padding: 12px 16px ;
+    color: #fff;
+}
+
+#header .header-menu li:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.menu-search {
+    position: absolute;
+    top:50%;
+    left: 98.5%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.menu-search:hover {
+    background-color: #ccc;
+    color:#000 ;
+    padding: 12px 16px ; 
+    cursor: pointer;
+}
+
+.header-slider {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.header-slider-text {
+    background-color: #fff;
+    padding: 48px 16px;
+}
+
+.header-slider-text h1 {
+    font-size: 48px;
+}
+
+.header-slider-text p {
+    font-size: 16px;
+}
+
+.header-slider-text .Jane-world {
+    background-color: #000;
+    color: #fff;
+    padding: 3px ;
+}
+
+.header-slider-item {
+    position: relative;
+}
+
+.header-slider-item img {
+    width: 100%;
+}
+
+.header-item-text {
+    position: absolute;
+    top: 66%;
+    color: #fff;
+    text-align: left;
+    padding: 12px 24px;
+}
+
+.header-item-text h2 {
+    margin: 16px 0;
+    font-size: 36px;
+}
+
+.header-item-text h1 {
+    font-size: 64px;
+}
+
+.header-item-text button {
+    font-size: 18px;
+    margin: 16px 0;
+    padding: 12px 24px;
+    opacity: 0.6;
+}
+
+.header-item-text button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#container {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.container-list-first {
+    display: inline-block;
+    max-width: 66.6666%;
+    text-align: center;
+    
+}
+
+.content-list {
+    background-color: #fff;
+    margin: 34px 16px;
+    height: 1010px;
+
+}
+
+.content-title {
+}
+
+.content-title h4 {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.content-title p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content-title .text-sub-title {
+   opacity: 0.5;
+}
+
+.content-item img {
+    width: 1000px;
+    margin: 20px 0;
+}
+
+.content-text {
+    text-align: justify;
+    padding: 0 16px;
+    font-size: 18px;
+}
+
+.content-text p .sub-text {
+    font-weight: 600;
+}
+
+.content-btn {
+    margin: 15px 0;
+}
+
+.content-btn .like {
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-weight: 900;
+}
+
+.content-btn .like:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+}
+
+.content-btn .replies {
+    padding: 8px 16px;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+}
+
+.content-btn .replies .quatity {
+    background-color: #fff;
+    color: #000;
+    padding: 0 8px;
+}
+
+.content-btn .replies:hover {
+    background-color: #ccc;
+    color: #000;
+   border: none;
+}
+
+#footer {
+
+}
